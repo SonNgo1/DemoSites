@@ -83,10 +83,6 @@ html {
 
 /* Main */
 
-#main {
-
-}
-
 #header {
     height: 46px;
     background-color: #000;
@@ -197,11 +193,6 @@ html {
     font-weight: 700;
     font-size: 12px;
     margin-top: 25px;
-}
-
-
-#content {
-
 }
 
 #content .content-section {
