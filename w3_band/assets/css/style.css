@@ -91,7 +91,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -152,6 +151,13 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
@@ -165,7 +171,6 @@ html {
 
 #header .mobile-menu-btn:hover {
     background-color: #ccc;
-    width: 100%;
 }
 
 #header .mobile-menu-btn:hover .menu-icon {
@@ -240,7 +245,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .members-name {
@@ -296,7 +301,7 @@ html {
 /* Places section */
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {
